@@ -1,0 +1,21 @@
+#gifs-appear-here{
+    padding: 80px;
+}
+
+button{
+    color: white;
+    background-color: rgb(4, 4, 100);
+    font-size: 20px;
+    font-weight: bold;
+    width: 125px;
+    height: 40px;
+}
+
+#gifs-appear-here div{
+    float: left;
+    animation-play-state: paused;
+    padding: 15px;
+}
+#gifs-appear-here div:hover{
+    animation-play-state: running;
+}
